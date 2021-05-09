@@ -8,6 +8,7 @@ import { VendedorComponent } from './vista/vendedor/vendedor.component';
 const routes: Routes = [{path:'cliente',component: ClienteComponent},
 {path:'vendedor', component: VendedorComponent},
 {path: 'inmueble', component: InmuebleComponent},
+{path: '', component: InmuebleComponent},
 {path: 'prueba', component: LavaderoComponent}
 ];
 
